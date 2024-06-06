@@ -18,9 +18,6 @@ module.exports = {
         'xs': '480px',
       },
     },
-    backgroundImage: {
-      "tutorial-bg": "url('../src/img/main-bg.jpg')",
-    }
   },
   variants: {
     textShadow: ['responsive', 'hover', 'focus'],

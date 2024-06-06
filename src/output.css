@@ -685,8 +685,8 @@ video {
   --tw-bg-opacity: 0.55;
 }
 
-.bg-tutorial-bg {
-  background-image: url('../src/img/main-bg.jpg');
+.bg-\[url\(\'\.\/img\/main-bg\.jpg\'\)\] {
+  background-image: url('./img/main-bg.jpg');
 }
 
 .bg-cover {

@@ -12,7 +12,7 @@ module.exports = {
         'none': 'none',
       },
       translate: {
-        'n2': '-2px', // Define custom translation value for y-axis
+        'n2': '-2px',
       },
       screens: {
         'xs': '480px',

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss入門</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="overflow-y-hidden h-screen items-center">
+    <header class="bg-green-400 bg-opacity-25 py-4 text-white select-none">
+        <nav class="flex flex-col md:flex-row sm:justify-between sm:mx-auto sm:container items-center px-20">
+            <div><h1 class="text-6xl md:text-4xl font-black text-shadow-md my-5 md:my-0"><span class="text-green-600">Shin</span>.com</h1></div>
+            <div class="xs:flex gap-3 font-bold">
+                <div><a href="" class="text-2xl xs:text-xl hover:text-yellow-500 transition-all duration-300 text-shadow-md-green">ホーム</a></div>
+                <div><a href="" class="text-2xl xs:text-xl hover:text-yellow-500 transition-all duration-300 text-shadow-md-green">ブログ</a></div>
+                <div><a href="" class="text-2xl xs:text-xl hover:text-yellow-500 transition-all duration-300 text-shadow-md-green">お問い合わせ</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="bg-tutorial-bg min-h-screen bg-cover bg-center object-cover">
+            <div class="flex flex-col sm:flex-row items-center justify-center mx-auto container md:justify-around py-10 sm:py-20 md:py-40">
+                <div class="select-none pb-5 md:pb-0 sm:mx-10">
+                    <h1 class="text-4xl xs:text-6xl text-bold">
+                        追い風を感じる〜
+                    </h1>
+                    <p class="md:text-xl mb-5">
+                        TailWindCSSでCSSスタイリングを加速させる
+                    </p>
+                    <a href="" class="px-6 py-3 bg-green-600 bg-opacity-55 text-white rounded-xl border-2 border-lime-700 hover:translate-y-n2 hover:shadow-xl inline-block cursor-pointer transition duration-300">
+                        詳しく見る
+                    </a>
+                </div>
+                <div>
+                    <img src="./img/tailwind-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
